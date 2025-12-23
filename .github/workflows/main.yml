@@ -1,0 +1,3 @@
+curl -L https://github.com/showdo/AOSP_REBUILD_AVB_BOOT/archive/refs/heads/main.tar.gz -o avb_boot.tar.gz
+mkdir avb_boot && tar -xzf avb_boot.tar.gz -C avb_boot
+cd avb_boot/AOSP_REBUILD_AVB_BOOT-main
